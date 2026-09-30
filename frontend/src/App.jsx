@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
-const API_BASE_URL = 'http://localhost:5000/api/tasks';
+const API_BASE_URL = 'https://smart-task-planner-14j7.onrender.com/api/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
